@@ -1,0 +1,37 @@
+body{background-color: antiquewhite;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedorpadre{
+    display: flex;
+    flex-direction: column;/* columnas */
+    flex-direction: column-reverse;/* columna inversa */
+    flex-direction: row-reverse;/* fila inversa */
+    flex-direction: row;/* fila */
+    flex-wrap: wrap-reverse;/* salta de linia y me invierte las filas */
+    flex-wrap: nowrap;/* no salta de linia */
+    flex-wrap: wrap;/* salta de linia cuando es pequeño */
+    justify-content: flex-start;/* inicia los elementos en left */
+    justify-content: flex-end;/* inicia los elementos en riht */
+    justify-content: center;/* ubica los elementos en centro */
+    justify-content: space-around;/* separa ato,aticamente los elementos */
+    justify-content: space-between;/* separa ato,aticamente los elementos pegados a los margenes */
+    justify-content: space-evenly;/* separa ato,aticamente los elementos tiene un pequeño margen isquierda y derecha */
+    align-content: end;/* ORDENA LOS ELEMENTOS ABAJO DEL CONTENEDOR */
+    align-content: center;/* ordena los elementos en el centro */
+    align-content: end;/* ORDENA LOS ELEMENTOS ABAJO DEL CONTENEDOR */
+    align-content: flex-start;/* ardena los elementos arriva en el contenedor */
+    
+    padding: 20px;
+    background-color: blue;
+    height: 600px;
+}
+.contenedorpadre div{
+    width: 100px;
+    background-color: crimson;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}

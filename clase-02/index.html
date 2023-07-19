@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase02</title>
+    <!-- enlacamos un archivo de estilo externo a nuesro html -->
+    <link rel="stylesheet" href="./css/index.css">
+    
+</head>
+<body>
+    
+    <nav>
+<a href="./pages/productos.html">ir a producto</a>
+    </nav>
+    <h2>
+        <ul>
+            <li>
+                <a href="https://sceu.frba.utn.edu.ar/e-learning/">utnba</a>
+            </li>
+        </ul>
+    </h2>
+    <main>
+        <hr>
+
+        <h1>proyecto 02</h1>
+        <!--  listas en html -->
+        <!-- listas desordonadas -->
+        <ul>
+            <li>cafe</li>
+            <li>azucar</li>
+            <li>leche</li>
+        </ul>
+        <!-- listar ordenadas -->
+        <hr>
+        
+        <ol>
+            <li>lllevar el auto</li>
+            <li>salir de paseo</li>
+            <li>cargar nafta</li>
+        </ol>
+        
+        <hr>
+        <img src="https://www.shutterstock.com/image-vector/t-rex-dinosaur-skeleton-negative-600w-2173936989.jpg" alt="imagen">
+        
+        <dl>
+            <dt>argentina</dt>
+            <dd>argentina es un pais con 50 mil habitantes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae expedita et, exercitationem minus similique, nam nulla consequuntur labore inventore quo perspiciatis odio quisquam dolores doloribus maiores harum iure optio nostrum.</dd>
+
+        </dl>
+        <hr>
+        <dl>
+            <dt>argentina</dt>
+            <dd>argentina es un pais con 50 mil habitantes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae expedita et, exercitationem minus similique, nam nulla consequuntur labore inventore quo perspiciatis odio quisquam dolores doloribus maiores harum iure optio nostrum.</dd>
+
+        </dl>
+        <dl>
+            <dt>argentina</dt>
+            <dd>argentina es un pais con 50 mil habitantes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae expedita et, exercitationem minus similique, nam nulla consequuntur labore inventore quo perspiciatis odio quisquam dolores doloribus maiores harum iure optio nostrum.</dd>
+
+        </dl>
+        <dl>
+            <dt>argentina</dt>
+            <dd>argentina es un pais con 50 mil habitantes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae expedita et, exercitationem minus similique, nam nulla consequuntur labore inventore quo perspiciatis odio quisquam dolores doloribus maiores harum iure optio nostrum.</dd>
+
+        </dl>
+        <dl>
+            <dt>argentina</dt>
+            <dd>argentina es un pais con 50 mil habitantes... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae expedita et, exercitationem minus similique, nam nulla consequuntur labore inventore quo perspiciatis odio quisquam dolores doloribus maiores harum iure optio nostrum.</dd>
+
+        </dl>
+
+        <dt>brasil</dt>
+        <dd>es un pais hermano Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum delectus ipsa perferendis veniam? Officia totam aliquid dicta cumque quae accusamus et magnam ut quia neque similique, atque numquam esse aliquam!</dd>
+
+        <hr>
+        <h2>
+            formularin
+        </h2>
+        <hr>
+
+        <!-- poner el id del mismo nombre de for del lebel en imput el ai va en input -->
+        <form id="formulario" action="/datos">
+            <label for="nombre">nombre</label>
+            <input type="text"name="name" id=nombre placeholder="ingresa tu nombre" required="text">
+            <br>
+            <labelfor="apellido">apellido<label>
+            <input type="text"name="apellido"minlength="4"maxlength="30" required="text">
+            <br>
+            <label for="email">email</label>
+            <input type="email"name="email"id="email" pattern="[a-zA-Z0-9]+[.[a-zA-Z0-9_-]+]*@[a-z0-9][\\w\\.-]*[a-z0-9]\\.[a-z][a-z\\.]*[a-z]$"
+            >
+            <br>
+            <label for="edad">edad</label>
+            <input type="number"name="edad"min="10" max="100">
+            <br>
+            <label for="fecha">fecha</label>
+            <input type="date"min="1950-01-01" max="2023-05-30" class="input formulario">
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password"pattern=".{5,10}"
+            >
+            <br>
+            <label for="password" >repita el password</label>
+            <input type="pasword"id="otropassword"pattern=".{5,10}">
+            <br>
+            <label for="provincia">provincia</label>
+            <select name="provincia" id="provincia"></select>
+            <optgroup>
+                <option value="caba">caba</option>
+                <option value="buenos aires">buenos aires</option>
+
+            </optgroup>
+            <br>
+            <div> <input type="radio"name="genero" valu="femenino">femenino
+                <input type="radio"name="genero" valu="masculino">masculino
+                <input type="radio"name="genero" valu="otro">otros
+            </div>
+                <br>
+                <label for="aceptar">acepto terminos del envio</label>
+                <input type="checkbox"name="aceptar" value="acepto">
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                
+            <div>
+                <input type="submit" value="enviar datos">
+            </div>
+
+            <div>
+                <input type="reset" name="" id="" value="borrar formulario"></div>
+            
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <address>
+           <p>
+            mi dire4ccion 208
+        </p>
+
+        </address>
+    </footer>
+    <link rel="stylesheet" href="">
+    <script src="./js/index.js"></script>
+</body>
+</html>

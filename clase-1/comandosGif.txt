@@ -1,0 +1,15 @@
+1. para revisar la confihuracion
+ git --version
+2. configuro nombre del usuario
+ git config --global user.name "martin"
+3. configuro email del usuario
+ git config --global user.email "tincho8919@gmail.com"
+4. borrar
+cls
+clear
+
+
+modificar git:
+1. git add .
+2. git commit -m "valor"
+3. git push
