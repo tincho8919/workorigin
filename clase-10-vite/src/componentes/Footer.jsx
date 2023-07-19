@@ -1,41 +1,56 @@
+import React from 'react';
+import '../css/footer.css'
 
 function Footer() {
-    return (
-        //el componente debe retornar 1 solo elemento
-        <>
-            export default BasicExample;
+    /* el componente debe retornar un sólo elemento */
+    return(  
+        <React.Fragment>
             <section>
                 <div>
-                    realizado por utn
+                    <p>
+                        Realizdo por UTN - PWI
+                    </p>
                 </div>
                 <footer>
-                    realizado por utn
+                    <p>Realizdo por UTN - PWI</p>
                 </footer>
                 <div>
-                    realizado por utn
-                </div>
-            </section>       <section>
-                <div>
-                    realizado por utn
-                </div>
-                <footer>
-                    realizado por utn
-                </footer>
-                <div>
-                    realizado por utn
-                </div>
-            </section>       <section>
-                <div>
-                    realizado por utn
-                </div>
-                <footer>
-                    realizado por utn
-                </footer>
-                <div>
-                    realizado por utn
+                    <p>
+                        Realizdo por UTN - PWI
+                    </p>
                 </div>
             </section>
-        </>
+            <section>
+            <div>
+                <p>
+                    Realizdo por UTN - PWI
+                </p>
+            </div>
+            <footer>
+                <p>Realizdo por UTN - PWI</p>
+            </footer>
+            <div>
+                <p>
+                    Realizdo por UTN - PWI
+                </p>
+            </div>
+            </section>
+            <section>
+            <div>
+                <p>
+                    Realizdo por UTN - PWI
+                </p>
+            </div>
+            <footer>
+                <p>Realizdo por UTN - PWI</p>
+            </footer>
+            <div>
+                <p>
+                    Realizdo por UTN - PWI
+                </p>
+            </div>
+            </section>
+        </React.Fragment>
     )
 }
 
